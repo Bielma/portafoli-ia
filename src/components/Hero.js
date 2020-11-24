@@ -30,33 +30,11 @@ export default function Hero() {
           color="textPrimary"
           gutterBottom
         >
-          Gatsby + Material UI
+          Practicas IA II.
         </Typography>
         <Typography variant="h5" align="center" color="textSecondary" paragraph>
-          An impeccable pairing
-        </Typography>
-        <div className={classes.heroButtons}>
-          <Grid container spacing={2} justify="center">
-            <Grid item>
-              <Button
-                href="https://material-ui.com"
-                variant="contained"
-                color="primary"
-              >
-                Material-UI
-              </Button>
-            </Grid>
-            <Grid item>
-              <Button
-                href="https://www.gatsbyjs.org"
-                variant="outlined"
-                color="primary"
-              >
-                Gatsby JS
-              </Button>
-            </Grid>
-          </Grid>
-        </div>
+          Perceptron, Adaline, NN, BP...
+        </Typography>     
       </Container>
     </div>
   );

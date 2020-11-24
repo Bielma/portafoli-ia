@@ -56,10 +56,9 @@ export default function Album(props) {
     <>
       <CssBaseline />
       <AppBar position="relative">
-        <Toolbar>
-          <CameraIcon className={classes.icon} />
+        <Toolbar>          
           <Typography variant="h6" color="inherit" noWrap>
-            Gatsby Material Album
+            AI Algorithms
           </Typography>
         </Toolbar>
       </AppBar>

@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <footer className={classes.footer}>
       <Typography variant="h6" align="center" gutterBottom>
-        Gatsby Material Album
+      AI Algorithms
       </Typography>
       <Typography
         variant="subtitle1"
