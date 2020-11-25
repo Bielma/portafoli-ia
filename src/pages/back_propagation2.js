@@ -1,10 +1,9 @@
 import React from 'react'
+import App from '../bp2/App'; 
 
 const back_propagation2 = () => {
-    return (
-        <div>
-            
-        </div>
+    return (                    
+        <App/>
     )
 }
 
