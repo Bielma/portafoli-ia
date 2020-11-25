@@ -71,18 +71,19 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 
   // create custom node fields containing exif data for each image file
-  if (node.internal.mediaType === "image/jpeg") {
+  //if (node.internal.mediaType === "image/jpeg") {
     fastExif
       .read(node.absolutePath)
       .then(exifData => {
         const description = exifData.image.ImageDescription;
         const title = exifData.image.DocumentName;
         const copyright = exifData.image.Copyright;
+        const page =  exifData.image.URL;
 
         createNodeField({
           name: `exif`,
           node,
-          value: { title, description, copyright }
+          value: { title, description, copyright, page }
         });
       })
       .then(() => {
@@ -91,5 +92,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       .catch(error => {
         console.log(error);
       });
-  }
+  //}
 };
+
+
+//exiftool -ImageDescription="View code " -DocumentName="Perceptron" -Copyright="https://github.com/Bielma/algoritmos-ia/tree/perceptron" C:\Users\tony3\Downloads\dataimg\img_1771.jpg

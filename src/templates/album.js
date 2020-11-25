@@ -82,8 +82,8 @@ export default function Album(props) {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button href={card.node.name} size="small" color="primary">
-                      View
+                    <Button href={card.node.fields.exif.page} size="small" color="primary">
+                    {card.node.fields.exif.page}
                     </Button>
                   </CardActions>
                 </Card>
