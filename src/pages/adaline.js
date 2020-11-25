@@ -1,9 +1,11 @@
 import React from 'react'
 
-export const adaline = () => {
+const adaline = () => {
     return (
         <div>
-            
+            <h1>Adaline</h1>
         </div>
     )
 }
+
+export default adaline;
