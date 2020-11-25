@@ -5,7 +5,6 @@ import PerceptronConfigs from '../components/PerceptronConfigs';
 import ErrorChart from '../components/ErrorChart';
 import { PerceptronContext } from "../components/PerceptronContext";
 import Alert from '../components/Alert.js';
-import NN from '../components/NN';
 
 
 const BP = (props) => {
@@ -88,10 +87,7 @@ const BP = (props) => {
                     </div>
                 </Col>
             </Row>
-            {
-                perceptronState.perceptron != null &&
-                <NN />
-            }
+           
         </Container>
     </>
 }
