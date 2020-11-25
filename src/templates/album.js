@@ -80,12 +80,29 @@ const data = [
   },
   {
     id:3,
-    tittle: "BackPropagerion",
+    tittle: "BackPropagation",
     url: "https://github.com/Bielma/algoritmos-ia/tree/perceptron",
-    description: "NN para separar n clases",    
+    description: "N clases, inputs from canvas. ",    
     img: 'https://www.diegocalvo.es/wp-content/uploads/2017/07/perceptron-multicapa.png',
     page: '/back_propagation/'
-  }
+  },
+
+  {
+    id:5,
+    tittle: "Adaline Seminario",
+    url: "https://github.com/Bielma/algoritmos-ia/tree/adaline",
+    description: "Inputs from csv file",
+    img: 'https://koldopina.com/wp-content/uploads/2018/04/Adaline.jpg',
+    page: '/adaline2/'
+  },
+  {
+    id:6,
+    tittle: "BackPropagation Seminario",
+    url: "https://github.com/Bielma/algoritmos-ia/tree/perceptron",
+    description: "Separa dos clases, para datos desde un csv.",    
+    img: 'https://www.diegocalvo.es/wp-content/uploads/2017/07/perceptron-multicapa.png',
+    page: '/back_propagation2/'
+  },
 ];
 
 export default function Album() {
