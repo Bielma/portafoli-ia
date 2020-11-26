@@ -6,7 +6,7 @@ import PerceptronConfigs from '../components/PerceptronConfigs';
 import ErrorChart from '../components/ErrorChart';
 import { PerceptronContext } from "../components/PerceptronContext";
 import Alert from '../components/Alert.js';
-const Perceptron = (props) => {
+const AdalinePage = (props) => {
     const {perceptronState} = useContext(PerceptronContext); 
     return <>
         <Container fluid>
@@ -78,4 +78,4 @@ const Perceptron = (props) => {
     </>
 }
 
-export default Perceptron;
+export default AdalinePage;

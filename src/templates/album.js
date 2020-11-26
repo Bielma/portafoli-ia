@@ -11,9 +11,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-
 import { Link } from "gatsby"
-
+//import Footer from '../components'
 
 function Copyright() {
   return (
@@ -168,9 +167,7 @@ export default function Album() {
       </main>
       {/* Footer */}
       <footer className={classes.footer}>
-        <Typography variant="h6" align="center" gutterBottom>
-          Footer
-        </Typography>
+        
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
          Create by: 
          Dany,

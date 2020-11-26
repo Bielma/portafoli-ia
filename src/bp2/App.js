@@ -39,8 +39,7 @@ function App() {
           perceptronState, 
           setPerceptronState
       }}>
-        <Header />
-
+       <Header tittle= "Back Propagation" />
         <Page_bp />
 
         <Footer />

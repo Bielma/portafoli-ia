@@ -24,7 +24,7 @@ function App() {
           perceptronState, 
           setPerceptronState
       }}>
-        <Header />
+        <Header tittle= "Adaline" />
 
         <AdalinePage />
 
