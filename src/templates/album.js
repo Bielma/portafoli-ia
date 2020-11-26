@@ -1,7 +1,6 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
-import Button from '@material-ui/core/Button';
-import CameraIcon from '@material-ui/icons/PhotoCamera';
+
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -81,7 +80,7 @@ const data = [
   {
     id:3,
     tittle: "BackPropagation",
-    url: "https://github.com/Bielma/algoritmos-ia/tree/perceptron",
+    url: "https://github.com/Bielma/algoritmos-ia/tree/back_propagation",
     description: "N clases, inputs from canvas. ",    
     img: 'https://www.diegocalvo.es/wp-content/uploads/2017/07/perceptron-multicapa.png',
     page: '/back_propagation/'
@@ -90,7 +89,7 @@ const data = [
   {
     id:5,
     tittle: "Adaline Seminario",
-    url: "https://github.com/Bielma/algoritmos-ia/tree/adaline",
+    url: "https://github.com/Bielma/algoritmos-ia/tree/p2-sem-ia",
     description: "Inputs from csv file",
     img: 'https://koldopina.com/wp-content/uploads/2018/04/Adaline.jpg',
     page: '/adaline2/'
@@ -98,7 +97,7 @@ const data = [
   {
     id:6,
     tittle: "BackPropagation Seminario",
-    url: "https://github.com/Bielma/algoritmos-ia/tree/perceptron",
+    url: "https://github.com/Bielma/algoritmos-ia/tree/bp-csv",
     description: "Separa dos clases, para datos desde un csv.",    
     img: 'https://www.diegocalvo.es/wp-content/uploads/2017/07/perceptron-multicapa.png',
     page: '/back_propagation2/'

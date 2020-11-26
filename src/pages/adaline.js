@@ -1,9 +1,11 @@
 import React from 'react'
+import App from '../adaline/App';
+
 
 const adaline = () => {
     return (
         <div>
-            <h1>Adaline</h1>
+            <App />
         </div>
     )
 }
