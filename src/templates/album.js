@@ -17,7 +17,7 @@ import { Link } from "gatsby"
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
+      {' © '}
       <Link color="inherit" href="https://github.com/Bielma/algoritmos-ia">
       IA Algorithms
       </Link>{' '}
@@ -111,9 +111,13 @@ export default function Album() {
       <CssBaseline />
       <AppBar position="relative">
         <Toolbar>          
-          <Typography variant="h6" color="inherit" noWrap>
-            IA Algorithms
-          </Typography>
+          
+          <Link to={"/"}   style={{ color: "white" }}>            
+            {<Typography variant="h6"  noWrap>
+              IA Algorithms
+  </Typography>}
+  
+          </Link>
         </Toolbar>
       </AppBar>
       <main>

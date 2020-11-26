@@ -1,11 +1,24 @@
 import React from "react";
 import '../styles/Header.css';
+import Typography from '@material-ui/core/Typography';
+import { Link } from "gatsby";
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
 
 const Header = ({tittle}) =>  {
     return <>
 
-        <div className="toolbar" role="banner"></div>
-
+<AppBar position="relative">
+        <Toolbar>          
+          
+          <Link to={"/"}   style={{ color: "white" }}>            
+            {<Typography variant="h6"  noWrap>
+              IA Algorithms
+  </Typography>}
+  
+          </Link>
+        </Toolbar>
+      </AppBar>
         <div className="content">
             <div className="card highlight-card card-small">
             <svg id="rocket" alt="Rocket Ship" xmlns="http://www.w3.org/2000/svg" width="101.678" height="101.678" viewBox="0 0 101.678 101.678">

@@ -29,8 +29,8 @@ const App = () => {
       }}>
       
 
-        <Header tittle= {"Back Propagation"} />
-
+        <Header tittle= {"BackPropagation"} />
+        <BP/>
         <Footer />
       </PerceptronContext.Provider>
        
