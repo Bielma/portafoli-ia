@@ -78,7 +78,7 @@ const data = [
   },
   {
     id:3,
-    tittle: "BackPropagation",
+    tittle: "MLP-BP",
     url: "https://github.com/Bielma/algoritmos-ia/tree/back_propagation",
     description: "N clases, inputs from canvas. ",    
     img: 'https://www.diegocalvo.es/wp-content/uploads/2017/07/perceptron-multicapa.png',
@@ -86,18 +86,38 @@ const data = [
   },
 
   {
-    id:5,
+    id:4,
     tittle: "Adaline Seminario",
     url: "https://github.com/Bielma/algoritmos-ia/tree/p2-sem-ia",
     description: "Inputs from csv file",
     img: 'https://koldopina.com/wp-content/uploads/2018/04/Adaline.jpg',
     page: '/adaline2/'
   },
+  
+  {
+    id:5,
+    tittle: "Practica 4, seminario",
+    url: "https://github.com/Bielma/algoritmos-ia/tree/p2-sem-ia",
+    description: "Red neuronal monocapa con Perceptron",
+    img: 'https://koldopina.com/wp-content/uploads/2018/04/Adaline.jpg',
+    page: '/p4/'
+  },
+
   {
     id:6,
-    tittle: "BackPropagation Seminario",
+    tittle: "Adaline monocapa",
+    url: "https://github.com/Bielma/algoritmos-ia/tree/p2-sem-ia",
+    description: "Practica 5, seminario",
+    img: 'https://koldopina.com/wp-content/uploads/2018/04/Adaline.jpg',
+    page: '/p5/'
+  },
+  
+
+  {
+    id:7,
+    tittle: "MLP-BackPropagation",
     url: "https://github.com/Bielma/algoritmos-ia/tree/bp-csv",
-    description: "Separa dos clases, para datos desde un csv.",    
+    description: "Practica-6, Seminario.",    
     img: 'https://www.diegocalvo.es/wp-content/uploads/2017/07/perceptron-multicapa.png',
     page: '/back_propagation2/'
   },

@@ -5,7 +5,7 @@ import { Button, FormControlLabel, Radio, RadioGroup, TextField, FormLabel,FormC
 import { PerceptronContext } from "./PerceptronContext.js";
 import BackPropagation from '../algoritmos/BackPropagationV2';
 import CsvReader from './CsvReader';
-
+import AdalineML from '../algoritmos/AdalineML';
 
 const numCapas = [
     {
@@ -61,16 +61,31 @@ const PerceptronConfigs = (props) => {
             neuronsPerLayer.push(initConf.num_n_capa2);
         }
         neuronsPerLayer.push(initConf.num_class);
-        const backP = new BackPropagation(
-            3,
-            [2,5,2],
-            values.learning_rate,
-            values.max_error,
-            values.max_epic_number,
-            perceptronState.cpDrawer,
-            setPerceptronState
-        );
-
+        let backP;
+        if(perceptronState.practica === 6){
+            backP = new BackPropagation(
+                3,
+                [2,5,2],
+                values.learning_rate,
+                values.max_error,
+                values.max_epic_number,
+                perceptronState.cpDrawer,
+                setPerceptronState
+            );
+    
+        }else if(perceptronState.practica === 5){
+             backP = new AdalineML(
+                3,
+                [2,2,2],
+                values.learning_rate,
+                values.max_error,
+                values.max_epic_number,
+                perceptronState.cpDrawer,
+                setPerceptronState
+            );
+    
+        }
+        
         setPerceptronState({
             ...perceptronState,
             perceptron: backP,
@@ -115,7 +130,8 @@ const PerceptronConfigs = (props) => {
             entrenado: false,
             x: [],
             y: [],
-            meanError: []
+            meanError: [],
+            csvLeido: false
         });
     }
 

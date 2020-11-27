@@ -7,7 +7,7 @@ import Page_bp from './page/page_bp';
 import { PerceptronContext } from '../bp2/components/PerceptronContext';
 
 
-function App({practica}) {
+function App() {
   const [perceptronState, setPerceptronState] = useState({
     perceptron: null,
     entrenado: false,
@@ -28,7 +28,7 @@ function App({practica}) {
       color: "#DF0101",
       value: 2
     }],
-    practica: practica
+    
 
   });
 

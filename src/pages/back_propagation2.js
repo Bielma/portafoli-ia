@@ -3,7 +3,7 @@ import App from '../bp2/App';
 
 const back_propagation2 = () => {
     return (                    
-        <App/>
+        <App practica = {6}/>
     )
 }
 
