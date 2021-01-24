@@ -1,5 +1,6 @@
 # Gatsby Material Portfolio
 
+![Screen Shot](https://i.ibb.co/9pDDsrT/Screenshot-20210117-215353.png)
 
 
 ## Features
